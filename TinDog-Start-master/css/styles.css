@@ -1,0 +1,227 @@
+
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+
+}
+ #features {
+   background-color: white;
+   position: relative;
+  padding: 7% 15%;
+ }
+
+  body {
+   font-family: Montserrat;
+ }
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat-black, sans-serif;
+
+
+
+}
+
+h2 {
+  color: #fff;
+
+
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+
+  font-weight: bold;
+  color: black;
+  font-size: 2rem;
+}
+
+/* Headings */
+
+.main-heading {
+  font-family: Montserrat-black, sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+
+
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+
+
+.download-btn {
+  margin: 5% 2% 5% 0;
+}
+
+.nav-item {
+
+
+  padding-right: 30px;
+  padding-left: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: normal;
+}
+
+.dog-img {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+
+
+
+
+  transform: rotate(25deg);
+}
+/* Features */
+
+
+
+.feature-headings {
+
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.feature-paragraph {
+  color: #8f8f8f
+}
+.feature-img {
+
+  text-align: center;
+  color: #ef8127;
+  font-size: 2.5rem;
+  padding-bottom: 10%;
+}
+.feature-img:hover {
+  color: #ff4c68;
+}
+.feat-col {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonials  */
+
+#testimonials {
+  color: #fff;
+  background-color: #ef8127;
+
+  text-align: center;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8127;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing {
+  padding:100px;
+  text-align: center;
+}
+
+.payment-heading {
+  font-size: 3rem;
+  color: black;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.price-tag {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: bold;
+  color: black;
+
+}
+
+@media (max-width:1028px) {
+  .dog-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+
+
+
+/* CTA section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 4% 2% 0;
+}
+
+.bottom-heading {
+  width: 60%;
+  margin: auto;
+
+  font-size: 3rem;
+  color: #fff;
+  font-style: bold;
+  font-weight: 1000;
+  line-height: 1.5;
+}
+
+
+/* Footer section */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 2% 2% 3% 3%;
+}
+
+.social-icons {
+  padding-right:  7px;
+  padding-bottom: 20px;
+}
